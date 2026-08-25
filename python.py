@@ -2690,3 +2690,13 @@ def product(name, price, quantity):
     print("Product:",name)
     print("Total Price:",total)
 product(quantity=3, name="Notebook", price=50) '''
+
+
+
+
+
+
+
+
+
+
