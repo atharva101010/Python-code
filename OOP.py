@@ -127,4 +127,87 @@ class Company:
 
 e1=Company('Atharva',100,3700000,'Associate_DevOps_Engineer')
 print(e1.empname,e1.eid,e1.sal,e1.desig)   '''
-        
+
+
+
+
+# Object Method:
+'''
+It is a method which is used to access and modfiy the members/properties of object.
+And for all the object method it is compulsory to pass "Self"
+'''
+
+'''class Company:
+    cname='ABC'
+    loc='Mumbai'
+    login_hours='9 hours'
+    def __init__(self,name,eid,sal,desig,email):
+        self.name=name
+        self.eid=eid
+        self.sal=sal
+        self.desig=desig
+        self.email=email
+    def disp(self):
+        print(self.name,self.eid,self.sal,self.desig,self.email)
+    def ch_email(self,new):
+        self.email=new
+    def ch_sal(self,new):
+        self.sal=new
+    def ch_desig(self,new):
+        self.desig=new
+emp1=Company('A','abc12',76000,'SE','a@gmail.com')
+emp2=Company('B','abc13',65000,'ASE','b@abc.com')
+Company.disp(emp1)
+Company.disp(emp2)
+Company.ch_email(emp1,'a@abc.in')
+Company.ch_sal(emp1,98000)
+Company.ch_desig(emp1,'Developer')
+Company.disp(emp1)
+Company.ch_email(emp2,'b@gmail.com')
+Company.ch_sal(emp2,75000)
+Company.ch_desig(emp2,'SSE')
+emp1.ch_desig('SSE')
+emp2.ch_desig('DevOps')    '''
+
+
+
+
+#Assignment:
+'''Program to create a class called school with 5 object methods.
+
+class school:
+    sname='Antonio De Souza High School'
+    loc='Mumbai'
+    time='8 hrs'
+    def __init__(self,name,sid,sclass,div,marks,certificate):
+        self.name=name
+        self.sid=sid
+        self.sclass=sclass
+        self.div=div
+        self.marks=marks
+        self.certificate=certificate
+    def disp(self):
+        print(self.name,self.sid,self.sclass,self.div,self.marks,self.certificate)
+    def change_class(self,new):
+        self.sclass=new
+    def change_div(self,new):
+        self.div=new
+    def change_marks(self,new):
+        self.marks=new
+    def change_certificate(self,new):
+        self.certificate=new
+s1=school('A',100,'10th','A',98,'No')
+s2=school('B',101,'10th','D',99,'No')
+school.disp(s1)
+school.disp(s2)
+school.change_class(s1,'11th')
+school.change_div(s1,'A')
+school.disp(s1)
+s2.change_class('12th')
+s2.change_marks(97)
+s2.change_certificate('Yes')
+s2.disp() '''
+
+
+
+          
