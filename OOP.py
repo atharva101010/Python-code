@@ -1,18 +1,18 @@
 #OOP example
 
 '''class Demo:
-    pass
+    pass          # we have skipped properties here 
 ob1 = Demo()
 ob2 = Demo() '''
 
 
 
 '''class Demo:
-    pass
+    pass          # we have skipped properties here 
 ob1=Demo()
 ob2=Demo()
 print(type(ob1))
-print(type(ob2)) '''
+print(type(ob2))   '''
 
 #Accessing properties
 ''' 
@@ -24,7 +24,7 @@ o2=A()
 o3=A()
 
 print(A.a,A.b) #Accessing properties from class. Syntax : classname.propertyname
-print(o1.a,o1.b)#Accessing properties from class. Syntax : objectname.propertyname
+print(o1.a,o1.b)#Accessing properties from object. Syntax : objectname.propertyname
 print(o2.a,o2.b)
 print(o3.a,o3.b)  '''
 
@@ -62,7 +62,7 @@ print(c2.bname,c2.loc) '''
 
 #  __init__ Method
 '''
-Constructor/__inti__/initialisation method:
+Constructor/__init__/initialisation method:
 1) It is a method which is used to initialize the members of object.
 2) Name should be __init__ .
 3) We can pass arguments either in function call/in class call/in object creation only it there exists __inti__ method .
@@ -207,6 +207,45 @@ s2.change_class('12th')
 s2.change_marks(97)
 s2.change_certificate('Yes')
 s2.disp() '''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
